@@ -13,13 +13,26 @@ printName();
 // }
 
 // getVolume(10, 5);
- 
 
 //?Напишите функцию, которая принимает строку и возвращает ее длину.
 
 function getStringLength(str) {
   return str.length;
 }
-let Mystring = `Ассаламу Алейкум`;
+let Mystring = `АссаламуАлейкум`;
 let length = getStringLength(Mystring);
-console.log(`Длинна строки: "${Mystring}" равна ${length}`)
+console.log(`Длинна строки: "${Mystring}" равна ${length}`);
+
+//!Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
+
+function isEven(number) {
+  if (number % 2 === 0) {
+    return true; // Число четное
+  } else {
+    return false; // Число нечетное
+  }
+}
+console.log(isEven(10)); //? true
+console.log(isEven(7)); //? false
+
+
