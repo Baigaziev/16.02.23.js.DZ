@@ -55,3 +55,10 @@ function pentagonPerimeter(a, b, c, d, e) {
   return a + b + c + d + e;
 }
 console.log(pentagonPerimeter(2, 4, 6, 8, 10)); // выведет 30
+
+
+//!Напишите цикл, который выводит каждое третье число в промежутке от 0 до 33.
+ for (let i = 0; i <= 33; i +=3) {
+  console.log(i)
+  
+ }
