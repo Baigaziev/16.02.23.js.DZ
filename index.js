@@ -87,3 +87,11 @@ console.log(sum);
 for (let i = 0; i <= 21; i += 2) {
   console.log(i);
 }
+
+//! Напишите цикл, который печатает нечетные числа от 1 до 15.
+
+let result = "";
+for (let i = 1; i <= 15; i += 2) {
+  result += i + " ";
+}
+console.log(result);
