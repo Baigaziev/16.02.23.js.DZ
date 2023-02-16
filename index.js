@@ -36,10 +36,16 @@ console.log(isEven(10)); //? true
 console.log(isEven(7)); //? false
 
 //!Напишите функцию, которая возвращает квадрат числа.
- function square(num) {
+function square(num) {
   return num * num;
+}
+console.log(square(5));
+console.log(square(10));
+
+//!Напишите функцию, которая возвращает корень числа.
+ function squareRoot(num) {
+  return Math.sqrt(num)
   
  }
- console.log(square(5));
- console.log(square(10))
- 
+ console.log(squareRoot(25));
+ console.log(squareRoot(100));
