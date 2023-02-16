@@ -56,9 +56,15 @@ function pentagonPerimeter(a, b, c, d, e) {
 }
 console.log(pentagonPerimeter(2, 4, 6, 8, 10)); // выведет 30
 
-
 //!Напишите цикл, который выводит каждое третье число в промежутке от 0 до 33.
- for (let i = 0; i <= 33; i +=3) {
-  console.log(i)
-  
- }
+for (let i = 0; i <= 33; i += 3) {
+  console.log(i);
+}
+
+//!Напишите цикл, вычисляющий факториал числа 8. (8!)
+
+let factorial = 1;
+for (let i = 1; i <= 8; i++) {
+  factorial *= i;
+}
+console.log(factorial); // 40 320
