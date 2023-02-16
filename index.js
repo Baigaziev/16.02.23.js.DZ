@@ -43,9 +43,15 @@ console.log(square(5));
 console.log(square(10));
 
 //!Напишите функцию, которая возвращает корень числа.
- function squareRoot(num) {
-  return Math.sqrt(num)
-  
- }
- console.log(squareRoot(25));
- console.log(squareRoot(100));
+function squareRoot(num) {
+  return Math.sqrt(num);
+}
+console.log(squareRoot(25));
+console.log(squareRoot(100));
+
+//!Напишите функцию, которая возвращает периметр пятиугольника.functionName(a, b, c, d, e)
+
+function pentagonPerimeter(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+console.log(pentagonPerimeter(2, 4, 6, 8, 10)); // выведет 30
