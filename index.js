@@ -158,3 +158,14 @@ for (let i = 0; i < numbers.length; i++) {
   let squared = numbers[i] ** 2; 
   console.log(squared);
 }
+
+//!21. Создайте массив строк и проверьте есть ли такой элемент в массиве. // ["cat", "dog", "snake"] 
+
+
+let animals = ["cat", "dog", "snake"];
+
+if (animals.includes("dog")) {
+  console.log("Элемент найден"); 
+} else {
+  console.log("Элемент не найден"); 
+}
