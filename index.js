@@ -122,3 +122,14 @@ for (let i = 0; i < myArray.length; i++) {
   }
 }
 console.log(sum); 
+
+
+//!Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
+
+// создаем массив строк
+let myArrayy = ["I", "like", "to", "eat!"];
+
+// объединяем строки с помощью метода join()
+let myString = myArrayy.join(" ");
+
+console.log(myString); // выведет "I like to eat!"
