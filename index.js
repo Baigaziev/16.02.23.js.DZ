@@ -121,8 +121,7 @@ for (let i = 0; i < myArray.length; i++) {
     sum += myArray[i];
   }
 }
-console.log(sum); 
-
+console.log(sum);
 
 //!Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
 
@@ -133,3 +132,12 @@ let myArrayy = ["I", "like", "to", "eat!"];
 let myString = myArrayy.join(" ");
 
 console.log(myString); // выведет "I like to eat!"
+
+//!! Создайте массив строк ["one", "two", "three"] и переверните его. // ["three", "two", "one"]
+
+let myText = ["one", "two", "three"];
+
+// используем метод reverse() для переворота массива
+myText.reverse();
+
+console.log(myText); 
