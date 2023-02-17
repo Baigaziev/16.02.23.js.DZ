@@ -140,4 +140,12 @@ let myText = ["one", "two", "three"];
 // используем метод reverse() для переворота массива
 myText.reverse();
 
-console.log(myText); 
+console.log(myText);
+
+//!Создайте массив из имен (минимум 3) и выведите каждое имя.
+
+let name = ["Erzhan", "Ermek", "Samira"];
+
+for (let i = 0; i < name.length; i++) {
+  console.log("Hello " + name[i]);
+}
